@@ -1,0 +1,12 @@
+class MathEngine ->
+
+	static add (a, b) <- a + b
+	static sub (a, b) <- a - b
+	static mult (a, b) <- a * b
+	static div (a, b) <- a / b
+	static mod (a, b) <- a % b
+	static pow (a, b) <- a ** b
+
+<-
+
+package MathEngine
