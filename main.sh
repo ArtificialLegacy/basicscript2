@@ -5,5 +5,3 @@ function bscript(){
 	node $src/compiler.js $1
 
 }
-
-bscript ./Examples/MathExample
