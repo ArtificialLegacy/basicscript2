@@ -1,0 +1,18 @@
+constant MathEngine : import("./math")
+
+class Main ->
+
+	static main ->
+
+		log(MathEngine.add(3, 2))
+		log(MathEngine.sub(3, 2))
+		log(MathEngine.mult(3, 2))
+		log(MathEngine.div(3, 2))
+		log(MathEngine.mod(3, 2))
+		log(MathEngine.pow(3, 2))
+
+	<-
+
+<-
+
+package Main
